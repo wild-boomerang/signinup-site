@@ -4,6 +4,7 @@
 *.pyc
 __pycache__/
 local_settings.py
+.env
 
 ### Python template
 # Byte-compiled / optimized / DLL files
