@@ -1,0 +1,1 @@
+web: gunicorn signupinsite.wsgi --log-file -
