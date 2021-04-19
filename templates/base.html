@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    {% block title %}
+        <title>Title</title>
+    {% endblock %}
     {% load bootstrap4 %}
     <script src="{% bootstrap_jquery_url %}"></script>
     {% bootstrap_javascript %}

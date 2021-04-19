@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 {% load bootstrap4 %}
 
+{% block title %}
+    <title>Login</title>
+{% endblock %}
+
 {% block content %}
     <h2>Login</h2>
 
@@ -14,8 +18,8 @@
 {#        <input type="submit" value="login">#}
     </form>
 
-    <a href="{% url "dashboard" %}">Back to dashboard</a>
-    <br>
+{#    <a href="/">Back to dashboard</a>#}
+{#    <br>#}
     If you are not registered yet, you can do it <a href="{% url 'register' %}">here</a>.
 
 {% endblock %}

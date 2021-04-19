@@ -40,9 +40,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 AUTH_USER_MODEL = 'moderation.User'
-LOGIN_REDIRECT_URL = 'dashboard'
-LOGIN_REDIRECT = 'dashboard'
-LOGOUT_REDIRECT_URL = "dashboard"
+LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT = '/'
+LOGOUT_REDIRECT_URL = "/"
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'moderation',
     'bootstrap4',
+    'django_tables2',
 ]
 
 MIDDLEWARE = [
